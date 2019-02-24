@@ -1,0 +1,26 @@
+luego de tener instalado ionic
+
+para iniciar un nuevo proyecto se puede ejecutar 
+el comando 
+    ionic start --help 
+para conocer que tipo de proyectos se pueden crear
+
+
+algunas de las opciones son :
+
+    $ ionic start <name> <template> [options]
+
+             name ............................ The name of your new project (e.g. myApp, "My App")
+             template ........................ The starter template to use (e.g. blank, tabs; use --list to see all)
+
+
+para correr la aplicacion 
+
+    $ ionic serve  // de este modo podra verse en el navegador 
+
+
+otra forma de visualizacion es utilizando ionic lab
+
+    $ ionic serve --lab // se visualizara en las diferentes plataformas
+
+

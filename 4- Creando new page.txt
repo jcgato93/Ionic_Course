@@ -1,0 +1,8 @@
+Un aspecto fundamental en el desarrollo móvil es la navegación. 
+Para tener navegación necesitaremos por lo menos dos páginas, 
+vamos a usar Ionic CLi para crear una nueva página.
+    
+    $ionic generate --help
+
+
+    $ionic generate page

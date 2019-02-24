@@ -1,0 +1,12 @@
+La parte principal que compone una aplicación son 
+las vistas o páginas porque nos permiten mostrar e ingresar información.
+
+Los componentes principales de estas páginas son:
+
+<ion-header> </ios-header>
+
+<ion-navbar> </ios-navbar>
+
+<ion-content></ion-content>
+
+<ion-footer></ion-footer>

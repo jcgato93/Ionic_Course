@@ -1,0 +1,20 @@
+el pasar parametros atraves de las rutas 
+funciona igual que en angular 
+
+En las rutas 
+    { path: 'details/:id', loadChildren:'./pages/details/details.module#DetailsPageModule' },
+
+
+Emisor
+   <ion-button [routerLink]="['/details',1]" >
+
+
+Receptor
+
+     id:any;
+
+    constructor(public navCtrl: NavController, private route: ActivatedRoute) {
+    
+        this.id= this.route.snapshot.paramMap.get('id');
+        
+    }

@@ -1,0 +1,42 @@
+en ionic 4 es bastante simple
+solo se debe crear el modulo padre que contendrea 
+los tabs y sera el que maneje la navegacion
+
+ ionic g page tabs
+ ionic g page tab1
+ ionic g page tab2
+
+luego en el routing del modulo tabs
+
+    const routes: Routes = [
+        {
+            path: 'tabs',
+            component: TabsPage,
+            children:[
+            { path: 'tab1', loadChildren: '../tab1/tab1.module#Tab1PageModule' },
+            { path: 'tab2', loadChildren: '../tab2/tab2.module#Tab2PageModule' },      
+            ]
+        },
+        {
+            path: '',
+            redirectTo: '/tabs/tab1'
+        }
+        ];
+
+
+y por ultimo en tabs.html
+
+    <ion-tabs>
+    <ion-tab-bar slot="bottom">
+        <ion-tab-button tab="tab1">
+        <ion-icon name="flash"></ion-icon>
+        <ion-label>Tab One</ion-label>
+        </ion-tab-button>
+        <ion-tab-button tab="tab2" >
+        <ion-icon name="apps"></ion-icon>
+        <ion-label>Tab Two</ion-label>
+        </ion-tab-button>   
+    </ion-tab-bar>
+    </ion-tabs>
+
+el tab="tab1"  indica el path al que apuntara    

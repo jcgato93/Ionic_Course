@@ -6,3 +6,7 @@ vamos a usar Ionic CLi para crear una nueva página.
 
 
     $ionic generate page
+
+Nota: Las pages son lo que se conoce en Angular como 
+modulos , y de hecho en ionic eso es exactamente lo que 
+se crea, un modulo

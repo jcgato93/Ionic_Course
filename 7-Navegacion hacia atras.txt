@@ -1,0 +1,14 @@
+desde .ts se puede navegar hacia la ruta anterior 
+de la siguiente manera 
+
+    constructor(public navCtrl: NavController) {
+
+   }
+
+
+    onBackPage(){    
+        this.navCtrl.pop();     
+    }
+
+
+con NavController y el metodo .pop();

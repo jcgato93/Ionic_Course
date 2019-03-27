@@ -39,4 +39,19 @@ y por ultimo en tabs.html
     </ion-tab-bar>
     </ion-tabs>
 
-el tab="tab1"  indica el path al que apuntara    
+el tab="tab1"  indica el path al que apuntara 
+
+
+
+la mejor manera de navegar entre componentes es la siguiente
+para que se agreguen al stack de navegacion 
+
+    
+  constructor(private navController:NavController) { }
+
+  ngOnInit() {
+  }
+
+  goDetails(){    
+    this.navController.navigateForward(['/details',2])
+  }

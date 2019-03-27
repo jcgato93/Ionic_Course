@@ -1,4 +1,19 @@
-desde .ts se puede navegar hacia la ruta anterior 
+- desde el html para que se vea la fecha de <--
+en la parte superior y que regrese al elemente anterior 
+en el stack
+
+    <ion-header>
+        <ion-toolbar>
+            <ion-buttons slot="start">
+                <ion-back-button></ion-back-button>
+                </ion-buttons>
+            <ion-title>details</ion-title>
+        </ion-toolbar>
+    </ion-header>
+
+
+
+-desde .ts se puede navegar hacia la ruta anterior 
 de la siguiente manera 
 
     constructor(public navCtrl: NavController) {
@@ -12,3 +27,5 @@ de la siguiente manera
 
 
 con NavController y el metodo .pop();
+
+

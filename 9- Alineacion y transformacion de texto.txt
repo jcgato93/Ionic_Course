@@ -1,0 +1,29 @@
+=== Alineacion ===
+
+<p>Texto normal</p>
+<p text-center>Texto centrado</p>
+<p text-left>Texto a la izq</p>
+<p text-right>Texto a la der</p>
+
+
+=== Transformacion ===
+
+<p text-uppercase> Mayuscula </p>
+<p text-lowercase> MINUSCULA </p>
+<p text-capitalize> La Primera Letra De Cada Palabra Sera Mayuscula </p>
+
+// Da un formato optimo para mostrarlo en movil
+// no permite que salga de los margenes
+<p text-wrap> 
+    kalsjdfkljsdklfjsklfjklfaklsdfjklsdjfsdf
+    askldjfkljaskldfj ajsdfkljsadklfj
+    aklsdjfkljslfjakldfsjl  
+</p>
+
+
+// muestra el texto en una sola linea
+<p text-nowrap> 
+    kalsjdfkljsdklfjsklfjklfaklsdfjklsdjfsdf
+    askldjfkljaskldfj ajsdfkljsadklfj
+    aklsdjfkljslfjakldfsjl  
+</p>

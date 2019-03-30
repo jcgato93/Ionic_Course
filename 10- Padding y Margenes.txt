@@ -1,0 +1,34 @@
+Ionic ya cuenta con las medidas 
+reglamentarias para los dispositivos 
+en cuanto a Padding y Margin
+
+=== Padding ===
+
+<p padding>Texto cualquiera</p>
+
+<p padding-left>Texto cualquiera</p>
+
+<p padding-right>Texto cualquiera</p>
+
+<p padding-bottom>Texto cualquiera</p>
+
+<p padding-top>Texto cualquiera</p>
+
+     
+     
+=== margin ===
+
+<p margin>Texto cualquiera</p>
+
+<p margin-left>Texto cualquiera</p>
+
+<p margin-right>Texto cualquiera</p>
+
+<p margin-bottom>Texto cualquiera</p>
+
+<p margin-top>Texto cualquiera</p>
+
+
+- Esto no es restrictivo ya que al fin y al cabo 
+se trabajo con HTML y podemos definir nuestras propias
+clases de margin y padding
